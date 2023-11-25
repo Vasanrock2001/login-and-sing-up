@@ -1,0 +1,68 @@
+body{
+    background: url(wal.jpg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.registration{
+    border-radius: 7px;
+    color: white;
+    width: 450px;
+    background-color: rgb(0,0,0,.5);
+    margin: 220px auto;
+    padding: 10px 20px 30px;
+
+}
+
+.registration h1{ text-align: center;}
+
+.registration .textlabel{
+    display: block;
+}
+.input input{
+    width: 100%;
+    font-size: medium;
+    border: 20x solid cadetblue;
+    border-radius: 7px;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    margin: 5px 0px 5px;
+}
+
+.btn{ text-align: center;
+font-size:large;
+padding-top: 10px;
+}
+
+.input :focus{
+    background-color: slategray;
+}
+
+.btn :focus{ background-color: slategray;}
+
+.radio{
+    margin: 50xp 0x 0px;
+    padding: 5px;
+}
+
+button{ background-color: slategray;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    border: 2px slategray solid;
+    border-radius: 7px;
+    font-size: large;
+}
+.radio input{
+    accent-color: #83c5e8;
+    transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+}
+
+.btn button{
+    cursor: pointer;
+}
+
+.radio input{
+    cursor: pointer;
+}

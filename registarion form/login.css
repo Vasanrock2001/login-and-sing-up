@@ -1,0 +1,47 @@
+body{
+    background: url(wal.jpg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.login{
+
+background: rgb(0,0,0,.5);
+width: 430px;
+padding: 10px 20px 30px;
+margin: 220px auto;
+border-radius: 7px;
+
+
+}
+.input input{
+    width: 100%;
+    font-size: medium;
+    border: 20x solid cadetblue;
+    border-radius: 7px;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    margin: 5px 0px 5px;
+}
+.input label{
+    display: block;
+    
+}
+.btn{
+    text-align: center;
+    padding: 10px;
+}
+
+button{
+    background-color: slategray;
+    border: 2px solid slategray;
+    border-radius: 29px;
+    font-size: larger;
+}
+
+.input :focus{
+background-color: slategray;
+}
+
+.btn button{
+    cursor: pointer;
+}
